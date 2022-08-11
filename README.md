@@ -1,4 +1,4 @@
-[![Build status](https://dev.azure.com/azum7699/Python/_apis/build/status/Python-Python%20package-CI)](https://dev.azure.com/azum7699/Python/_build/latest?definitionId=4)
+[![Build Status](https://dev.azure.com/azum7699/Python/_apis/build/status/Python-Python%20package-CI?branchName=master)](https://dev.azure.com/azum7699/Python/_build/latest?definitionId=4&branchName=master)
 
 # CD/CI Tutorial Sample Application
 
