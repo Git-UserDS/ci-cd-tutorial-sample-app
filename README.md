@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.org/edonosotti/ci-cd-tutorial-sample-app.svg?branch=master)](https://travis-ci.org/edonosotti/ci-cd-tutorial-sample-app)
-[![codebeat badge](https://codebeat.co/badges/0e006c74-a2f9-4f34-9cf4-2378fb7d995a)](https://codebeat.co/projects/github-com-edonosotti-ci-cd-tutorial-sample-app-master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/e14a2647843de209fd5e/maintainability)](https://codeclimate.com/github/edonosotti/ci-cd-tutorial-sample-app/maintainability)
+https://dev.azure.com/azum7699/Python/_apis/build/status/Python-Python%20package-CI?branchName=master
+[![Build Status](https://dev.azure.com/azum7699/Python/_apis/build/status/Python-Python%20package-CI?branchName=master)](https://dev.azure.com/azum7699/Python/_build/latest?definitionId=4&branchName=master)
 
 # CD/CI Tutorial Sample Application
 
