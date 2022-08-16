@@ -1,0 +1,12 @@
+[Unit]
+Description=Stage Flask App
+After=network.target
+
+[Service]
+User=stagesvc
+WorkingDirectory=/home/stagesvc/PythonApp
+ExecStart=/home/stagesvc/PythonApp/venv/bin/flask run
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
