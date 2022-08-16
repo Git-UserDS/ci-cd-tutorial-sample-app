@@ -1,0 +1,12 @@
+[Unit]
+Description=Prod Flask App
+After=network.target
+
+[Service]
+User=stagesvc
+WorkingDirectory=/home/prodsvc/PythonApp
+ExecStart=/home/prodsvc/PythonApp/venv/bin/gunicorn app:app -b 0.0.0.0:8000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
