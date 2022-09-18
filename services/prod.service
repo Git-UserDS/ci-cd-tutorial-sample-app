@@ -3,9 +3,9 @@ Description=Prod Flask App
 After=network.target
 
 [Service]
-User=prodsvc
+User=uadmin
 WorkingDirectory=/home/uadmin/PythonApp
-ExecStart=/home/prodsvc/PythonApp/venv/bin/gunicorn app:app -b 0.0.0.0:8000
+ExecStart=/home/uadmin/PythonApp/venv/bin/gunicorn app:app -b 0.0.0.0:8000
 Restart=always
 
 [Install]
