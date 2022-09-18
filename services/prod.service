@@ -1,5 +1,5 @@
 [Unit]
-Description=Prod Flask App
+Description=Prod Flask App (Gunicorn)
 After=network.target
 
 [Service]
