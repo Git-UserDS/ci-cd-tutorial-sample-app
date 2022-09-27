@@ -19,8 +19,11 @@ ExecStart=/home/$2/PythonApp/venv/bin/flask run
 Restart=always
 [Install]
 WantedBy=multi-user.target"
+
 echo "Creating new service..."
 echo "$service_contents" >> "$service_path"
+
 systemctl daemon-reload
 systemctl start $1.service
 systemctl enable $1.service
+systemctl status $1.service
