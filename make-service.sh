@@ -21,7 +21,7 @@ Restart=always
 WantedBy=multi-user.target"
 
 echo "Creating new service..."
-echo "$service_contents" >> "$service_path"
+echo "$service_contents" > "$service_path"
 
 systemctl daemon-reload
 systemctl start $1.service
