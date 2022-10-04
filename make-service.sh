@@ -10,12 +10,12 @@ fi
     touch "$service_path"
     service_contents="
 [Unit]
-Description=Stage Flask App
+Description=Python Web App
 After=network.target
 [Service]
 User=$2
 WorkingDirectory=/home/$2/PythonApp
-ExecStart=/home/$2/PythonApp/venv/bin/flask run
+ExecStart=/home/$2/PythonApp/venv/bin/gunicorn app:app -b 0.0.0.0:8000
 Restart=always
 [Install]
 WantedBy=multi-user.target"
